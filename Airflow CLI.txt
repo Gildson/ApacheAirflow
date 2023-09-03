@@ -1,0 +1,50 @@
+Airflow (Para funcionar os comandos o docker tem que está apontado para o web-server)
+Comandos CLI para as dags:
+
+Listagem das dags
+ - airflow dags list
+
+Listagem um pouco mais detalhada das dags
+- airflow dags report
+
+Listagem dos jobs de cada dags
+- airflow dags list-jobs
+
+Próxima execução agendada da dags
+- airflow dags next-execution dag_send_email
+
+Lista informações de execução da dag
+- airflow dags list-runs -d first_dag
+
+Para tirar a dag da pausa
+- airflow dags unpause first_dag
+
+Executar uma dags
+- airflow dags trigger first_dag
+
+Forma de saber o que está acontecendo com a dag
+- airflow dags list-runs -d first_dag
+
+Comandos CLI para as task:
+
+Lista as tarefas de uma dag
+- airflow tasks list dad_send_email
+
+Testar uma tarefa:
+- airflow tasks test dag_send_email send_email 2023-09-03
+
+Mostrar configurações do airflow
+- airflow config list
+
+Lista de pools
+- airflow pools list
+
+Lista conexões
+- airflow connections list
+
+Lista de variáveis
+- airflow variables list
+
+Listagem dos comandos principais
+- airflow
+
