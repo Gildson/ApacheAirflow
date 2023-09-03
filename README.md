@@ -15,3 +15,6 @@ Você irá ver todas as dags criadas no cursos, algumas eu alterei para testas c
 
 Para encerrar o docker, digite:
 ## docker-compose down
+
+Requisitos para entender os códigos
+<img align="center" height="90" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
