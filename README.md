@@ -18,3 +18,6 @@ Para encerrar o docker, digite:
 
 Requisitos para entender os códigos
 <img align="center" height="90" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+
+OBS importante:
+Caso precise mudar qualquer configuração no Airflow faça no docher-compose.yaml, assim toda vez que você feichar e reabrir o container as alterações estarão disponível, se quiser fazer no airflow.cfg, quando parar o container e iniciar novamente as alterações terão sido perdidas, pois o arquivo yaml sobrescreve as informações do airflow.cfg
